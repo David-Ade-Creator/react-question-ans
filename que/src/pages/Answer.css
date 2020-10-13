@@ -1,0 +1,59 @@
+.Answer{
+    position: absolute;
+    width:100%;
+    min-height: 95.5vh;
+    background-color: #f0f3f7;
+    z-index: -3;
+    padding-bottom: 30px;
+}
+.answer__container{
+    background-color: white;
+}
+
+.answer__top{
+    display: flex;
+    align-items: center;
+}
+
+.staricon{
+    color: #3d4894;
+}
+
+.answer__top p{
+    padding: 5px;
+}
+.Answer__paper{
+    padding: 10px;
+}
+
+.Answer__profile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.answer__link{
+    color: black;
+    text-decoration: none;
+}
+
+.answer__link:hover{
+    color: #3d4894;
+}
+
+.profile__avatar{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.Answer__question{
+    padding: 8px;
+    cursor: pointer;
+}
+
+.Answer__question span{
+    display: flex;
+    align-items: center;
+}

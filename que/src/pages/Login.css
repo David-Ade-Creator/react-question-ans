@@ -1,0 +1,22 @@
+.Login{
+    position: absolute;
+    width:100%;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Various-background-styles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+.loginbtn{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,122 @@
+.Navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    padding: 0;
+    z-index: 1;
+    box-shadow: 0.5px 1px 4px #d4d6d5;
+    background-color: white;
+}
+
+.Navbar__namecon{
+    display: flex;
+    align-items: center;
+}
+
+.Navbar__name{
+    color: #3d4894;
+    padding: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Navbar h4{
+    padding: 2px;
+}
+
+.Navbar__link{
+    display: flex;
+    cursor: pointer;
+    color: grey;
+    align-items: center;
+}
+
+.Navbar__input{
+    height: 35px;
+    width: 200px;
+    padding-left: 8px;
+    outline-width: 0;
+    border: 1px solid #d4d6d5;
+}
+
+.Navbar__menu{
+    display: flex;
+    align-items: center;
+}
+
+.Navbar__avatar{
+    width:30px;
+    height: 30px;
+    color: #d4d6d5;
+    cursor: pointer;
+}
+
+
+.Question{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background:rgba(0,0,0,0.8);
+    z-index: 7;
+}
+
+.Question__con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.Question__content{
+    background-color: white;
+}
+
+.Question__paper{
+    position: relative;
+    padding: 50px;
+}
+
+.Question__humburgertab{
+    position: relative;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tablink,.tab_btn{
+    margin-bottom: 20px;
+}
+
+.Question__paper .profile{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.Question__paper .profile p{
+    font-size: 13px;
+    color: grey;
+}
+
+.Question__paper input{
+    width: 100%;
+    outline-width: 0;
+    border: 0;
+}
+
+.question__btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}

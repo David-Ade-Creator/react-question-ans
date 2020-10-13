@@ -1,0 +1,7 @@
+.Homepage{
+    position: absolute;
+    width:100%;
+    background-color: white;
+    z-index: -3;
+    padding-bottom: 30px;
+}
