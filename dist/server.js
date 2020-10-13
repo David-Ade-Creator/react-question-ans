@@ -2,6 +2,8 @@
 
 var _express = _interopRequireDefault(require("express"));
 
+var _path = _interopRequireDefault(require("path"));
+
 var _bodyParser = _interopRequireDefault(require("body-parser"));
 
 var _config = _interopRequireDefault(require("./config"));
@@ -28,9 +30,9 @@ app.use("/api/users", _userRoutes.default);
 app.use("/api/q3", _questionRoutes.default);
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(_express.default.static(path.join(__dirname, '/../que/build')));
+  app.use(_express.default.static(_path.default.join(__dirname, '/../que/build')));
   app.get('*', (req, res) => {
-    res.sendFile(path.join(`${__dirname}/../que/build/index.html`));
+    res.sendFile(_path.default.join(`${__dirname}/../que/build/index.html`));
   });
 }
 
